@@ -7,7 +7,7 @@
 - MatPlotLib
 - SciKitLearn
 
-# Instructions To Use
+# Instructions
 - Make sure all files should be in the same folder beforerunning.
 
 - **Windows, Mac and Linux**

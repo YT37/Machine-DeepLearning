@@ -8,7 +8,7 @@
 - NumPy
 - PyBullet
 
-# Instructions To Use
+# Instructions
 - To run this project firstly uncomment the Training part at line : 286 then after training comment it again and uncomment the Infrence part at line : 350 to test the model and your models video will be saved in videos folder.
 
 - **Windows, Mac and Linux**

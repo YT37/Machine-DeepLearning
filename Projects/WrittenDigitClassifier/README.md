@@ -6,7 +6,7 @@
 - TensorFlow
 - NumPy
 
-# Instructions To Use
+# Instructions
 - **Windows, Mac and Linux**
   ``` 
   pip install -r requirements.txt

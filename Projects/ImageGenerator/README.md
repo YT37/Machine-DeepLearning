@@ -7,7 +7,7 @@
 - TorchVision
 - TDQM
 
-# Instructions To Use
+# Instructions
 - Make sure all files should be in the same folder before running.
 
 - **Windows, Mac and Linux**
