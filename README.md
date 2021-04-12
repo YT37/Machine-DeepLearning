@@ -1,6 +1,5 @@
-# Machine-DeepLearning-Snippets
-
-- These are code snippets of different Fields and Algorithms of Machine Learning & Deep Learning.
+# Machine-DeepLearning
+- These are snippets & projects of different Machine Learning & Deep Learning algorithms.
 
 # Requirements
 
