@@ -5,6 +5,6 @@ apyori
 scipy
 nltk
 tensorflow
-pytorch
+torch
 numpy
 minisom

@@ -2,5 +2,5 @@ scikit-learn
 pandas
 numpy
 tensorflow
-pylab
+matplotlib
 minisom
