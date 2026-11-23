@@ -1,10 +1,9 @@
 import torch
-from torch.autograd import Function
 from ..box_utils import decode, nms
 from SSD.data import voc as cfg
 
 
-class Detect(Function):
+class Detect:
     """At test time, Detect is the final layer of SSD.  Decode location preds,
     apply non-maximum suppression to location predictions based on conf
     scores and threshold to a top_k number of output predictions for both
@@ -20,6 +19,9 @@ class Detect(Function):
             raise ValueError('nms_threshold must be non negative.')
         self.conf_thresh = conf_thresh
         self.variance = cfg['variance']
+
+    def __call__(self, *args):
+        return self.forward(*args)
 
     def forward(self, loc_data, conf_data, prior_data):
         """
